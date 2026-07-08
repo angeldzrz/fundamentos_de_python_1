@@ -30,6 +30,6 @@ for i in range(len(datos_prueba)):
     print(yr,"->",end="")
     resultado = es_bisiesto(yr)
     if resultado == resultado_pruebas[i]:
-        print("Correcto")
+        print("OK")
     else:
-        print("Incorrecto")
+        print("Fallido")
